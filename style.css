@@ -1,0 +1,49 @@
+
+header {
+    display: flex;
+    align-items: left;
+    justify-content: center-left;
+    height: 200px;
+    background: url('https://images.wallpaperscraft.com/image/single/equipment_sound_recording_music_178031_1920x1080.jpg') bottom no-repeat;
+    background-size: cover;
+	color: white
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+	align-items: flex-end;
+}
+
+.navigation a{
+    height: 50%;
+    display: table;
+    float: left;
+    padding: 0px 10px;
+    background-color: #101010;
+}
+
+.navigation a li{
+    vertical-align: right;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+    }
